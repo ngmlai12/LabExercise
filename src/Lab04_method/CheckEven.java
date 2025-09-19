@@ -6,8 +6,7 @@ public class CheckEven {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter an integer: ");
-        int num = sc.nextInt();
-        even(num);
+        even(sc.nextInt());
     }
 
     public static void even(int num) {
@@ -16,6 +15,5 @@ public class CheckEven {
         } else {
             System.out.println("The number is odd");
         }
-        ;
     }
 }
