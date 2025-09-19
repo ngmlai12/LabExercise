@@ -28,7 +28,8 @@ public class MultiplyTable {
                 array1[j] = j + 1;
                 System.out.printf("%4d", array1[i] * array1[j]);
             }
-            System.out.println(" ");h
+            System.out.println(" ");
 
+        }
     }
 }
