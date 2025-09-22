@@ -1,6 +1,7 @@
 package LabJ06_Object.Gameee;
 
 public class Avatar {
+    String name;
     int level = 1;
     boolean isAlive;
     int currentHp = 100;
@@ -8,7 +9,9 @@ public class Avatar {
     int currentMp = 50;
     int maxMp = 50;
 
-
+    public Avatar(String name) {
+        this.name = name;
+    }
 
     public void deployMagicAttack() {
         currentMp -= 20;
@@ -38,7 +41,7 @@ public class Avatar {
         System.out.println("Healed HP "+hp+", MP + "+mp);
     }
 
-    public void avatarStatus(String name) {
+    public void avatarStatus() {
         System.out.println(name +"-HP: " + currentHp + "/" + maxHP + ", MP: " + currentMp + "/" + maxMp);
     }
 }
