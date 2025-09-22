@@ -22,6 +22,5 @@ ArrayList<Book> books =  new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         System.out.print("Input a full book title:");
         String bookTitle = sc.nextLine();
-
     }
 }
