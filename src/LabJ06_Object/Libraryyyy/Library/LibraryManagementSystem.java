@@ -25,10 +25,10 @@ public class LibraryManagementSystem {
                         library.AddBook();
                         break;
                     case 2:
-                        System.out.println("2");
+                        library.RemoveBook();
                         break;
                     case 3:
-                        System.out.println("3");
+                        library.searchByTitle();
                         break;
                 }
 
